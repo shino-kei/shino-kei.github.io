@@ -3,19 +3,20 @@ created: 2024/11/27
 modified: 2024/11/27
 tags:
   - obsidian
+  - Commander
 ---
 
 ## 概要
 
 Obsidianを使う際に、daily noteのタブを一番左においてピン留めするようにしているが、毎回操作するのが面倒なので簡略化したいと思った
 
-結論としては、[commander](https://github.com/phibr0/obsidian-commander)と[pane-relief](https://github.com/pjeby/pane-relief)のプラグインで実現できたので、しばらく試してみる
+結論としては、[Commander](https://github.com/phibr0/obsidian-Commander)と[pane-relief](https://github.com/pjeby/pane-relief)のプラグインで実現できたので、しばらく試してみる
 
 ## 手順
 
 ### ①プラグインのインストール
 
-obsidianの設定メニューから、community pluginsを開いて、[commander](https://github.com/phibr0/obsidian-commander)と[pane-relief](https://github.com/pjeby/pane-relief)をインストールする
+obsidianの設定メニューから、community pluginsを開いて、[Commander](https://github.com/phibr0/obsidian-Commander)と[pane-relief](https://github.com/pjeby/pane-relief)をインストールする
 
 ### ② マクロの登録
 
