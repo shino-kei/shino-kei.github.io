@@ -1,10 +1,44 @@
 ---
 created: 2024/10/27
-modified: 2024/10/27
+modified: 2024/11/27
 tags:
   - obsidian
   - quartz
 ---
+
+## 必要な環境
+
+- Obsidian
+- Git
+- nodejs
+- npm
+
+## フォルダ構成
+
+- Obsidian Vault: ノートを書き溜める場所
+	- publish: Github Pagesで公開するためのフォルダ
+	- その他プライベートなフォルダ
+- Quartz: ブログ管理用のリポジトリ
+
+参考：[Obsidian + Quartz + Github Page を使ってサイト公開｜devlive](https://note.com/devlive/n/n3250edc2ee8f)
+
+## 方針
+
+- obsidianでページの編集を行う
+- vault内に`publish`という名前のフォルダを作成し、公開したいノートはこの中に置く
+- Quartz4でGitHub Pagesへのファイル変換を行う
+- `publish`フォルダとQuartz4の作業フォルダは別々に管理する（submoduleにはしない）
+	- `publish`フォルダへのシンボリックリンクをQuartz4の`contents`フォルダに作成
+
+## 現状の懸念点
+
+- 複数マシンで編集したくなったときどうする？
+	- [livesync](https://github.com/vrtmrz/obsidian-livesync)でデバイス間のファイルは同期
+	- 念のため別途Gitでバックアップを保存しておく
+
+---
+
+以下検討メモ
 
 - htmlをそのまま書くのは大変なので、mdから変換したい
 - octopressというものが有名っぽい？
