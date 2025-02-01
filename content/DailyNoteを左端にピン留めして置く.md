@@ -12,6 +12,8 @@ Obsidianを使う際に、daily noteのタブを一番左においてピン留�
 
 結論としては、[Commander](https://github.com/phibr0/obsidian-Commander)と[pane-relief](https://github.com/pjeby/pane-relief)のプラグインで実現できたので、しばらく試してみる
 
+![[img-デイリーノートを開いたら常に左端にピン留めされるようにしたい.png]]
+
 ## 手順
 
 ### ①プラグインのインストール
